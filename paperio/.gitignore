@@ -9,3 +9,5 @@ client
 
 # dossier de build
 build/
+
+.vscode/
