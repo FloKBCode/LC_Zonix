@@ -1,0 +1,11 @@
+# binaires compiles
+server.exe
+client.exe
+server
+client
+
+# fichiers objet
+*.o
+
+# dossier de build
+build/
