@@ -11,3 +11,5 @@ client
 build/
 
 .vscode/
+
+SDL2.dll
