@@ -6,8 +6,8 @@
 
 CC     = gcc
 CFLAGS = -Wall -Wextra -g -I./include
-LIBS_CLIENT = -lSDL2 -lpthread
 LIBS_SERVER = -lpthread
+LIBS_CLIENT = -lmingw32 -lSDL2main -lSDL2 -lpthread -mwindows
 
 SRC_COMMON = src/map.c src/player.c src/game.c src/flood_fill.c
 SRC_SERVER = src/main_server.c src/server.c src/threads.c
